@@ -588,10 +588,7 @@
 		var progressbar = $(".mry-slider-progress-bar");
 
 		var swiper = new Swiper(".mry-main-slider", {
-			autoplay: {
-				delay: 10000,
-				disableOnInteraction: false
-			},
+			autoplay: false,
 			spaceBetween: 0,
 			loop: true,
 			parallax: true,
